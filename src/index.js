@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import KanbanApp from './kanban-app.js';
 
 ReactDOM.render(
-    <h1>This is pretty fucking cool!!!</h1>,
+    <KanbanApp />,
     document.getElementById('root')
 );
