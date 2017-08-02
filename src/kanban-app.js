@@ -8,7 +8,14 @@ export default class KanbanApp extends React.Component
         super(props);
 
         this.state = {
-            page: <BacklogDetail />
+            page: <BacklogDetail />,
+            style: {
+                margin: 0,
+                padding: 0,
+                height: '100%',
+                width: '100%',
+                background: '#999'
+            }
         };
     }
 
@@ -25,8 +32,7 @@ export default class KanbanApp extends React.Component
     render()
     {
         return (
-            <div className="kanban-app">
-                <h1>Kanban App</h1>
+            <div className="kanban-app" style={ this.state.style }>
                 {this.state.page}
             </div>
         );

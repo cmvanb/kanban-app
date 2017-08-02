@@ -16,7 +16,7 @@ export default class BacklogDetail extends React.Component
     render()
     {
         return (
-            <TitleBar title="BacklogDetail" closable={true}/>
+            <TitleBar title="Backlog Detail" closable={true}/>
         );
     }
 }

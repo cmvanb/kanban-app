@@ -4,7 +4,7 @@
   "description": "A personal task management app.",
   "scripts": {
     "start": "budo --live --verbose --port 3000 --open",
-    "build": "browserify -t [ babelify --presets [ es2015 react ] ] src/index.js -o build/app.js"
+    "build": "browserify -t [ babelify --presets [ es2015 react ] ] src/index.js -o build/index.js"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
