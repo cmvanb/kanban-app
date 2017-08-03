@@ -9,42 +9,55 @@ export default class TitleBar extends React.Component
         this.state = {
             titleBarStyle: {
                 // Rendering.
-                background: '#00f',
-
-                // Font and text.
-                'text-align': 'center',
+                background:     '#ccc',
 
                 // Sizing.
-                width: '100%',
-                height: '8%'
+                width:          '100vw',
+                height:         '7.91vh'
             },
             titleStyle: {
-                // Rendering.
-                background: '#f00',
-
                 // Font and text.
-                'font-size': '4vh',
+                fontSize:       '4vh',
+                fontWeight:     'bold',
+                textAlign:      'center',
 
                 // Positioning.
-                display: 'inline-flex',
-                'justify-content': 'space-between',
-                float: 'none',
-                margin: 'auto',
-                padding: '1% 1% 1% 1%',
+                display:        'table',
+                float:          'left',
+                paddingTop:     '1.6vh',
+                paddingRight:   '1vh',
+                paddingBottom:  '0.4vh',
+                paddingLeft:    '1vh',
 
                 // Sizing.
-                width: 'auto'
+                width:          'calc(100vw - 10vh)',
+                height:         '6vh'
             },
             buttonStyle: {
                 // Rendering.
-                background: '#0f0',
+                background:     '#f00',
+                borderRadius:   '50%',
 
                 // Font and text.
-                'font-size': '4vh',
+                fontSize:       '4vh',
+                fontWeight:     'bold',
+                textAlign:      'center',
 
                 // Positioning.
-                float: 'right',
-                padding: '1% 1% 1% 1%'
+                display:        'table-cell',
+                float:          'right',
+                marginTop:      '1vh',
+                marginRight:    '1vh',
+                marginBottom:   '1vh',
+                marginLeft:     '1vh',
+                paddingTop:     '1vh',
+                paddingRight:   '1vh',
+                paddingBottom:  '1vh',
+                paddingLeft:    '1vh',
+
+                // Sizing.
+                width:          '4vh',
+                height:         '4vh'
             }
         };
     }
